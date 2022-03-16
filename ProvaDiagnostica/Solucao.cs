@@ -34,6 +34,7 @@ namespace ProvaDiagnostica
         public void ex2()
         {
             Console.WriteLine("Exercício 2 !!\n");
+            Console.WriteLine("Exercício 2 !!\n");
         }
     }
 }
