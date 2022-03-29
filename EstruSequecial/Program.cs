@@ -19,7 +19,7 @@ namespace EstruSequecial
             calcSalario = double.Parse(Console.ReadLine());
             
             calcSalario = hrsTraba * valorHr;
-            Console.WriteLine("O salário do funcionario {1} é de {0:F2}: ", numFuncio, calcSalario);
+            Console.WriteLine("O salário do funcionario {1} é de {0:F2}: ",numFuncio, calcSalario);
 
         }
     }
