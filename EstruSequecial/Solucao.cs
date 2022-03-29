@@ -4,5 +4,4 @@
 namespace EstruSequecial
 {
     class Solucao
-    
 }
