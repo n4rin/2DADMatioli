@@ -226,5 +226,32 @@ namespace Calculadora
         {
             limparCampo();
         }
+
+        private void buttonCE_Click(object sender, EventArgs e)
+        {
+            if (numero1 != null)
+            {
+                txtDisplay.Text = "";
+            } else
+            {
+                limparCampo();
+            }
+        }
+
+        private void buttonApagaUltimoDigito_Click(object sender, EventArgs e)
+        {
+            if (!txtDisplay.Text.Trim().Equals(String.Empty))
+            {
+                txtDisplay.Text = txtDisplay.Text.Remove(txtDisplay.Text.LastIndexOf(txtDisplay.Text.Last()));
+            }
+        }
+
+        private void buttonNegPos_Click(object sender, EventArgs e)
+        {
+            if(!txtDisplay.Text.Trim().Equals(String.Empty))
+            {
+                txtDisplay.Text = Convert.ToString(Convert.ToDouble(txtDisplay.Text.Trim()) * -1);
+            }
+        }
     }
 }
