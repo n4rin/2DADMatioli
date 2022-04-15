@@ -7,11 +7,12 @@ namespace ProvaDiagnostica
         
         static void Main(string[] args)
         {
-            Solucao ProvaDiag = new Solucao();
-            Console.WriteLine("Prova Diagnóstica!");
+            Solucao provaDiag = new Solucao();
 
-            ProvaDiag.ex1();
-            ProvaDiag.ex2();
+            // provaDiag.ex1();
+            // provaDiag.ex2();
+            // provaDiag.ex3();
+            provaDiag.ex4();
         }
     }
 }
