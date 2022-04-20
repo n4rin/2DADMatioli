@@ -188,7 +188,6 @@ namespace Calculadora
             this.txtDisplay.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtDisplay.Size = new System.Drawing.Size(459, 38);
             this.txtDisplay.TabIndex = 9;
-            this.txtDisplay.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // btnC
             // 
@@ -210,7 +209,7 @@ namespace Calculadora
             this.btnCE.TabIndex = 8;
             this.btnCE.Text = "CE";
             this.btnCE.UseVisualStyleBackColor = true;
-            this.btnCE.Click += new System.EventHandler(this.button8_Click);
+            this.btnCE.Click += new System.EventHandler(this.buttonCE_Click);
             // 
             // btnArrow
             // 
@@ -221,7 +220,7 @@ namespace Calculadora
             this.btnArrow.TabIndex = 8;
             this.btnArrow.Text = "<=";
             this.btnArrow.UseVisualStyleBackColor = true;
-            this.btnArrow.Click += new System.EventHandler(this.button8_Click);
+            this.btnArrow.Click += new System.EventHandler(this.buttonApagaUltimoDigito_Click);
             // 
             // btnSoma
             // 
@@ -243,7 +242,7 @@ namespace Calculadora
             this.btnMaisMenos.TabIndex = 20;
             this.btnMaisMenos.Text = "+/-";
             this.btnMaisMenos.UseVisualStyleBackColor = true;
-            this.btnMaisMenos.Click += new System.EventHandler(this.button6_Click);
+            this.btnMaisMenos.Click += new System.EventHandler(this.buttonNegPos_Click);
             // 
             // btnDivide
             // 
